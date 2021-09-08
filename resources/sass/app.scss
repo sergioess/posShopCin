@@ -1,0 +1,337 @@
+// Fonts
+
+// @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+
+// // Variables
+// @import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/scss/font-awesome";
+
+
+
+// Variables
+@import 'variables';
+
+ 
+.main{
+    margin: 0px;
+}
+ 
+.no-margin{
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px;
+}
+ 
+.no-bg{
+    background-color: white;
+}
+
+.big-padding{
+    padding: 30px;
+}
+
+.blue-grey{
+    background-color: #37474f;
+}
+
+.white-text{
+    color: white;
+}
+
+.box{
+    width: 313px;
+    border: 2px solid #000;
+}
+.red-text{
+    color: rgb(200,50,50);
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.table{
+    background-color: white;
+}
+ 
+.absolute{
+    position: absolute;
+
+}
+
+.floating{
+    position: fixed;
+    top:2em;
+    right: 2em;
+    z-index: 100;
+}
+
+.product{
+    width: 600px;
+    max-width: 100%;
+    padding: 1em;
+    position: relative;
+
+    h1{
+        padding-bottom:10px;
+        border-bottom: solid 1px;
+    }
+    .actions{
+        right: 1em;
+        top:10px;
+    }
+}
+
+.sale-data {
+    padding: 1em;
+    text-align: center;
+    border-right: solid 1px #222;
+  }
+  
+  .sale-data span {
+    display: block;
+    font-size: 2.2em;
+    color: #3f51b5;
+  }
+  
+  
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+.badge-pill {
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+
+
+.img-centrada {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+    text-decoration: none;
+    border-bottom: dashed 1px #0088cc;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel {
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+}
+
+body {
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #eee;
+
+}
+
+.capitalize  {
+    text-transform: capitalize;
+}
+
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.text-nowrap {
+    white-space: nowrap!important;
+}
+
+.addScroll{
+    height: 90vh; /* %-height of the viewport */
+ 
+    overflow-y: scroll;
+  }
+
+
+
+.text-nowrap {
+    white-space: nowrap!important;
+}
+
+.flex-md-nowrap {
+    -ms-flex-wrap: nowrap!important;
+    flex-wrap: nowrap!important;
+}
+
+.encuesta {
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: left;
+    justify-content: left;
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    border: 1px solid rgba(129,136,161,.23);
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 #dbdbdb80;
+    transition: .5s;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/* Centered text */
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 8px;
+    transform: translate(-50%, -50%);
+  }
+
+// .navbar-nav {
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-direction: column;
+//     flex-direction: column;
+//     padding-left: 0;
+//     margin-bottom: 0;
+//     list-style: none;
+// }
+
+
+// .producto-covertura img {
+//     box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+//     background: #fff;
+// }
+
+// .product-actions .add-to-cart {
+//     height: 2.75rem;
+//     line-height: inherit;
+//     padding-top: .625rem;
+// }
+
+// .work {
+
+//     margin: 0 auto;
+//     padding: 2;
+//     display: inline-block;
+//     line-height: 50px;
+//     text-align: center;
+// }
+
+// .clearfix:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+// }
+
+// #products .products, .product-accessories .products, .product-miniature .products {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-wrap: wrap;
+//     flex-wrap: wrap;
+//     -webkit-box-pack: start;
+//     -ms-flex-pack: start;
+//     justify-content: flex-start;
+// }
+
+// #products .product-description, .featured-products .product-description, .product-accessories .product-description, .product-miniature .product-description {
+//     position: absolute;
+//     z-index: 3;
+//     background: #fff;
+//     width: 250px;
+//     bottom: 0;
+//     height: 70px;
+// }
+
+// #products .products, .featured-products .products, .product-accessories .products, .product-miniature .products {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-wrap: wrap;
+//     flex-wrap: wrap;
+//     -webkit-box-pack: start;
+//     -ms-flex-pack: start;
+//     justify-content: flex-start;
+// }
+
+
+// #products .product-miniature, .featured-products .product-miniature, .product-accessories .product-miniature, .product-miniature .product-miniature {
+//     margin-top: 1rem;
+// }
+
+// article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+//     display: block;
+// }
+
+// article {
+//     display: block;
+// }
+
+// #products .thumbnail-container, .featured-products .thumbnail-container, .product-accessories .thumbnail-container, .product-miniature .thumbnail-container {
+//     position: relative;
+//     margin-bottom: 1.563rem;
+//     height: 318px;
+//     width: 250px;
+//     background: #fff;
+//     box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+// }
+
+// .clearfix:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+// }
+// *, :after, :before {
+//     box-sizing: inherit;
+// }
+
+
